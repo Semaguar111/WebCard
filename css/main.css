@@ -1,0 +1,227 @@
+body{
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222;
+}
+
+
+header{
+background: url(../img/first-bg.jpg) no-repeat center top / cover;
+height: 100vh;
+}
+
+.clearfix:after{
+content:'';
+display: table;
+width: 100%;
+clear: both;
+}
+
+div{
+	box-sizing: border-box;
+}
+.container{
+width: 930px;
+margin: 0 auto;
+}
+
+.logo{
+margin-top: 41px;
+float: left;
+}
+
+nav{
+	float: right;
+	margin-top: 50px;
+
+}
+
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.titles-first{
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 180px;
+	margin-bottom: 0;
+}
+
+h1{
+	font-size: 75px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.titles h1{
+	margin: 15px;
+}
+
+.button{
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	color: #484543;
+	background: #fed136;
+	padding: 20px 0;
+	margin: 0 auto;
+	border-radius: 3px;
+	display: block;
+	width: 240px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+
+.button: hover{
+	color: red;
+}
+
+.title h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.title p{
+	color: #777;
+	text-align: center;
+	font-size: 16px;
+	margin: 5px;
+}
+
+.title{
+	padding-top: 100px;
+}
+
+.services{
+	padding-top: 10px;
+	margin-left: 10px;
+	padding-bottom: 120px;
+}
+
+.services_item{
+	width: 270px;
+	float: left;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.services_item h3{
+	font-size: 18px;
+	padding-bottom: 0; 
+}
+
+.services_item p{
+	font-size: 14px;
+	color: #777;
+	line-height: 1.6em;
+}
+
+.services_item:last-child{
+	float: right;	
+}
+
+.services_item:nth-child(2){
+	margin-left: 60px;
+}
+
+#portfolio{
+	background-color: #e7e7e7;
+	padding-bottom: 120px;
+}
+
+.examples img{
+	float:left;
+}
+
+.examples img:last-child{
+	float: right;
+}
+
+.examples img:nth-child(2){
+	margin-left: 28px;
+}
+
+.examples{
+	margin-top: 70px;
+}
+
+.op {
+	width: 300px;
+	padding: 50px 0 50px 0;
+}
+
+.container:nth-child(4){
+	float: right;
+}
+
+.op{
+	float: right;
+}
+
+.pnktr .op{
+	float: right;
+	text-align: left;
+	color: #777;
+	margin-right:45px;
+}
+
+.pnktl .op{
+	float: left;
+	text-align: right;
+	color: #777;
+	margin-left: 45px;
+}
+
+.pnkt:nth-child(4) .op{
+	float: left;
+}
+
+.pnktl img{
+	padding-left: 28px;
+}
+
+.pnktr img{
+	padding-left: 373px;
+}
+
+.pnktl{
+	padding: 20px 0 20px 0;
+}
+
+.kostil{
+	padding-bottom: 25px;
+}
+
+footer{
+	background-color: #e7e7e7;
+}
+
+footer p{
+	text-align: center;
+	color: #777;
+	padding: 15px 0 70px 0;
+	font-size: 13px;  
+}
